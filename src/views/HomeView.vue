@@ -1,0 +1,19 @@
+<template>
+  <Header/>
+  <Filter/>
+<Calendar/>
+</template>
+
+<script setup>
+import Header from "@/components/Header.vue";
+import Filter from "@/components/Filter.vue";
+import Calendar from "@/components/Calendar.vue";
+import {onMounted} from "vue";
+import {useBookingStore} from "@/stores/booking.js";
+const bookingStore=useBookingStore();
+onMounted(async () => {
+  await bookingStore.getBooking()
+})
+</script>
+
+
