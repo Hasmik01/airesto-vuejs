@@ -18,7 +18,7 @@ export const data ={
         {
             "id": "table-1",
             "number": "1",
-            "capacity": 5,
+            "capacity": 3,
             "zone": "1 этаж",
             "orders": [
                 {
@@ -29,318 +29,318 @@ export const data ={
                 },
                 {
                     "id": "order-1-2",
-                    "start_time": "2025-04-05T12:30:00+10:00",
-                    "end_time": "2025-04-05T13:30:00+10:00",
-                    "status": "Bill"
+                    "start_time": "2025-04-04T11:20:00+10:00",
+                    "end_time": "2025-04-04T13:00:00+10:00",
+                    "status": "Closed"
                 },
                 {
                     "id": "order-1-3",
-                    "start_time": "2025-04-04T14:00:00+10:00",
-                    "end_time": "2025-04-04T15:00:00+10:00",
-                    "status": "New"
+                    "start_time": "2025-04-05T11:50:00+10:00",
+                    "end_time": "2025-04-05T15:00:00+10:00",
+                    "status": "Closed"
                 }
             ],
             "reservations": [
                 {
-                    "id": 1001,
-                    "name_for_reservation": "Мария",
-                    "phone_number": "+70000000011",
+                    "id": 101,
+                    "name_for_reservation": "Елена",
+                    "phone_number": "+70000000079",
                     "num_people": 3,
-                    "seating_time": "2025-04-05T13:30:00+10:00",
-                    "end_time": "2025-04-05T14:30:00+10:00",
-                    "status": "Живая очередь"
-                },
-                {
-                    "id": 1002,
-                    "name_for_reservation": "Иван",
-                    "phone_number": "+70000000012",
-                    "num_people": 4,
-                    "seating_time": "2025-04-04T14:20:00+10:00",
+                    "seating_time": "2025-04-04T15:00:00+10:00",
                     "end_time": "2025-04-04T16:00:00+10:00",
                     "status": "Открыт"
                 },
                 {
-                    "id": 1003,
-                    "name_for_reservation": "Мария",
-                    "phone_number": "+70000000013",
+                    "id": 102,
+                    "name_for_reservation": "Дмитрий",
+                    "phone_number": "+70000000076",
                     "num_people": 5,
-                    "seating_time": "2025-04-04T18:30:00+10:00",
-                    "end_time": "2025-04-04T19:30:00+10:00",
-                    "status": "Заявка"
+                    "seating_time": "2025-04-04T17:00:00+10:00",
+                    "end_time": "2025-04-04T18:00:00+10:00",
+                    "status": "Новая"
+                },
+                {
+                    "id": 103,
+                    "name_for_reservation": "Елена",
+                    "phone_number": "+70000000030",
+                    "num_people": 4,
+                    "seating_time": "2025-04-04T17:40:00+10:00",
+                    "end_time": "2025-04-04T20:00:00+10:00",
+                    "status": "Живая очередь"
                 }
             ]
         },
         {
             "id": "table-2",
             "number": "2",
-            "capacity": 6,
-            "zone": "2 этаж",
+            "capacity": 3,
+            "zone": "1 этаж",
             "orders": [
                 {
                     "id": "order-2-1",
                     "start_time": "2025-04-04T11:00:00+10:00",
-                    "end_time": "2025-04-04T12:00:00+10:00",
-                    "status": "New"
+                    "end_time": "2025-04-04T12:30:00+10:00",
+                    "status": "Closed"
                 },
                 {
                     "id": "order-2-2",
-                    "start_time": "2025-04-04T12:30:00+10:00",
-                    "end_time": "2025-04-04T13:30:00+10:00",
-                    "status": "Closed"
+                    "start_time": "2025-04-04T12:00:00+10:00",
+                    "end_time": "2025-04-04T13:00:00+10:00",
+                    "status": "New"
                 },
                 {
                     "id": "order-2-3",
                     "start_time": "2025-04-04T14:00:00+10:00",
                     "end_time": "2025-04-04T15:00:00+10:00",
-                    "status": "Bill"
+                    "status": "New"
                 }
             ],
             "reservations": [
                 {
-                    "id": 2001,
-                    "name_for_reservation": "Мария",
-                    "phone_number": "+70000000014",
-                    "num_people": 4,
-                    "seating_time": "2025-04-04T18:00:00+10:00",
-                    "end_time": "2025-04-04T19:40:00+10:00",
-                    "status": "Новая"
-                },
-                {
-                    "id": 2002,
-                    "name_for_reservation": "Ольга",
-                    "phone_number": "+70000000015",
-                    "num_people": 5,
-                    "seating_time": "2025-04-04T20:10:00+10:00",
-                    "end_time": "2025-04-04T20:50:00+10:00",
-                    "status": "Открыт"
-                },
-                {
-                    "id": 2003,
+                    "id": 201,
                     "name_for_reservation": "Анна",
-                    "phone_number": "+70000000016",
+                    "phone_number": "+70000000091",
                     "num_people": 4,
-                    "seating_time": "2025-04-04T19:30:00+10:00",
-                    "end_time": "2025-04-04T20:30:00+10:00",
+                    "seating_time": "2025-04-04T15:00:00+10:00",
+                    "end_time": "2025-04-04T16:00:00+10:00",
+                    "status": "Живая очередь"
+                },
+                {
+                    "id": 202,
+                    "name_for_reservation": "Ольга",
+                    "phone_number": "+70000000070",
+                    "num_people": 5,
+                    "seating_time": "2025-04-04T17:00:00+10:00",
+                    "end_time": "2025-04-04T19:00:00+10:00",
                     "status": "Заявка"
+                },
+                {
+                    "id": 203,
+                    "name_for_reservation": "Елена",
+                    "phone_number": "+70000000093",
+                    "num_people": 4,
+                    "seating_time": "2025-04-04T20:00:00+10:00",
+                    "end_time": "2025-04-04T21:00:00+10:00",
+                    "status": "Новая"
                 }
             ]
         },
         {
             "id": "table-3",
             "number": "3",
-            "capacity": 7,
+            "capacity": 3,
             "zone": "1 этаж",
             "orders": [
                 {
                     "id": "order-3-1",
                     "start_time": "2025-04-04T11:00:00+10:00",
-                    "end_time": "2025-04-04T12:00:00+10:00",
-                    "status": "New"
-                },
-                {
-                    "id": "order-3-2",
-                    "start_time": "2025-04-04T12:30:00+10:00",
-                    "end_time": "2025-04-04T13:30:00+10:00",
+                    "end_time": "2025-04-04T13:00:00+10:00",
                     "status": "Closed"
                 },
                 {
+                    "id": "order-3-2",
+                    "start_time": "2025-04-04T15:00:00+10:00",
+                    "end_time": "2025-04-04T16:00:00+10:00",
+                    "status": "New"
+                },
+                {
                     "id": "order-3-3",
-                    "start_time": "2025-04-04T14:00:00+10:00",
-                    "end_time": "2025-04-04T15:00:00+10:00",
+                    "start_time": "2025-04-04T19:00:00+10:00",
+                    "end_time": "2025-04-04T20:00:00+10:00",
                     "status": "New"
                 }
             ],
             "reservations": [
                 {
-                    "id": 3001,
-                    "name_for_reservation": "Ольга",
-                    "phone_number": "+70000000017",
-                    "num_people": 2,
-                    "seating_time": "2025-04-04T15:30:00+10:00",
-                    "end_time": "2025-04-04T16:30:00+10:00",
-                    "status": "Живая очередь"
+                    "id": 301,
+                    "name_for_reservation": "Анна",
+                    "phone_number": "+70000000058",
+                    "num_people": 4,
+                    "seating_time": "2025-04-05T15:00:00+10:00",
+                    "end_time": "2025-04-05T16:00:00+10:00",
+                    "status": "Заявка"
                 },
                 {
-                    "id": 3002,
-                    "name_for_reservation": "Наталья",
-                    "phone_number": "+70000000018",
-                    "num_people": 6,
-                    "seating_time": "2025-04-04T17:00:00+10:00",
-                    "end_time": "2025-04-04T18:00:00+10:00",
+                    "id": 302,
+                    "name_for_reservation": "Ольга",
+                    "phone_number": "+70000000040",
+                    "num_people": 5,
+                    "seating_time": "2025-04-05T16:00:00+10:00",
+                    "end_time": "2025-04-05T17:00:00+10:00",
                     "status": "Новая"
                 },
                 {
-                    "id": 3003,
-                    "name_for_reservation": "Ольга",
-                    "phone_number": "+70000000019",
-                    "num_people": 5,
-                    "seating_time": "2025-04-04T18:30:00+10:00",
-                    "end_time": "2025-04-04T19:30:00+10:00",
-                    "status": "Заявка"
+                    "id": 303,
+                    "name_for_reservation": "Елена",
+                    "phone_number": "+70000000031",
+                    "num_people": 3,
+                    "seating_time": "2025-04-06T17:00:00+10:00",
+                    "end_time": "2025-04-06T18:00:00+10:00",
+                    "status": "Живая очередь"
                 }
             ]
         },
         {
             "id": "table-4",
             "number": "4",
-            "capacity": 8,
-            "zone": "2 этаж",
+            "capacity": 3,
+            "zone": "1 этаж",
             "orders": [
                 {
                     "id": "order-4-1",
-                    "start_time": "2025-04-04T11:00:00+10:00",
-                    "end_time": "2025-04-04T12:00:00+10:00",
-                    "status": "New"
-                },
-                {
-                    "id": "order-4-2",
-                    "start_time": "2025-04-04T12:30:00+10:00",
-                    "end_time": "2025-04-04T13:30:00+10:00",
+                    "start_time": "2025-04-05T11:00:00+10:00",
+                    "end_time": "2025-04-05T12:00:00+10:00",
                     "status": "Closed"
                 },
                 {
-                    "id": "order-4-3",
-                    "start_time": "2025-04-04T14:00:00+10:00",
-                    "end_time": "2025-04-04T15:00:00+10:00",
+                    "id": "order-4-2",
+                    "start_time": "2025-04-06T12:00:00+10:00",
+                    "end_time": "2025-04-06T13:00:00+10:00",
                     "status": "New"
+                },
+                {
+                    "id": "order-4-3",
+                    "start_time": "2025-04-04T13:00:00+10:00",
+                    "end_time": "2025-04-04T14:00:00+10:00",
+                    "status": "Closed"
                 }
             ],
             "reservations": [
                 {
-                    "id": 4001,
+                    "id": 401,
                     "name_for_reservation": "Сергей",
-                    "phone_number": "+70000000020",
+                    "phone_number": "+70000000079",
+                    "num_people": 4,
+                    "seating_time": "2025-04-04T15:00:00+10:00",
+                    "end_time": "2025-04-04T16:00:00+10:00",
+                    "status": "Заявка"
+                },
+                {
+                    "id": 402,
+                    "name_for_reservation": "Наталья",
+                    "phone_number": "+70000000030",
                     "num_people": 3,
-                    "seating_time": "2025-04-05T15:30:00+10:00",
-                    "end_time": "2025-04-05T16:30:00+10:00",
+                    "seating_time": "2025-04-04T16:00:00+10:00",
+                    "end_time": "2025-04-04T17:00:00+10:00",
                     "status": "Живая очередь"
                 },
                 {
-                    "id": 4002,
-                    "name_for_reservation": "Катя",
-                    "phone_number": "+70000000021",
-                    "num_people": 3,
+                    "id": 403,
+                    "name_for_reservation": "Сергей",
+                    "phone_number": "+70000000052",
+                    "num_people": 5,
                     "seating_time": "2025-04-04T17:00:00+10:00",
                     "end_time": "2025-04-04T18:00:00+10:00",
-                    "status": "Открыт"
-                },
-                {
-                    "id": 4003,
-                    "name_for_reservation": "Сергей",
-                    "phone_number": "+70000000022",
-                    "num_people": 4,
-                    "seating_time": "2025-04-05T18:30:00+10:00",
-                    "end_time": "2025-04-05T19:30:00+10:00",
-                    "status": "Заявка"
+                    "status": "Новая"
                 }
             ]
         },
         {
             "id": "table-5",
             "number": "5",
-            "capacity": 4,
+            "capacity": 8,
             "zone": "1 этаж",
             "orders": [
                 {
                     "id": "order-5-1",
-                    "start_time": "2025-04-04T11:00:00+10:00",
-                    "end_time": "2025-04-04T12:00:00+10:00",
-                    "status": "New"
-                },
-                {
-                    "id": "order-5-2",
-                    "start_time": "2025-04-04T12:30:00+10:00",
-                    "end_time": "2025-04-04T13:30:00+10:00",
+                    "start_time": "2025-04-05T11:00:00+10:00",
+                    "end_time": "2025-04-05T12:00:00+10:00",
                     "status": "Closed"
                 },
                 {
+                    "id": "order-5-2",
+                    "start_time": "2025-04-05T16:00:00+10:00",
+                    "end_time": "2025-04-05T17:00:00+10:00",
+                    "status": "New"
+                },
+                {
                     "id": "order-5-3",
-                    "start_time": "2025-04-04T14:00:00+10:00",
-                    "end_time": "2025-04-04T15:00:00+10:00",
+                    "start_time": "2025-04-04T18:00:00+10:00",
+                    "end_time": "2025-04-04T19:00:00+10:00",
                     "status": "New"
                 }
             ],
             "reservations": [
                 {
-                    "id": 5001,
-                    "name_for_reservation": "Иван",
-                    "phone_number": "+70000000023",
-                    "num_people": 4,
-                    "seating_time": "2025-04-04T15:30:00+10:00",
-                    "end_time": "2025-04-04T16:30:00+10:00",
+                    "id": 501,
+                    "name_for_reservation": "Татьяна",
+                    "phone_number": "+70000000082",
+                    "num_people": 5,
+                    "seating_time": "2025-04-04T15:00:00+10:00",
+                    "end_time": "2025-04-04T17:00:00+10:00",
+                    "status": "Заявка"
+                },
+                {
+                    "id": 502,
+                    "name_for_reservation": "Дмитрий",
+                    "phone_number": "+70000000099",
+                    "num_people": 2,
+                    "seating_time": "2025-04-04T15:00:00+10:00",
+                    "end_time": "2025-04-04T16:00:00+10:00",
                     "status": "Живая очередь"
                 },
                 {
-                    "id": 5002,
-                    "name_for_reservation": "Наталья",
-                    "phone_number": "+70000000024",
-                    "num_people": 4,
-                    "seating_time": "2025-04-04T17:00:00+10:00",
-                    "end_time": "2025-04-04T18:00:00+10:00",
-                    "status": "Открыт"
-                },
-                {
-                    "id": 5003,
-                    "name_for_reservation": "Иван",
-                    "phone_number": "+70000000025",
+                    "id": 503,
+                    "name_for_reservation": "Ольга",
+                    "phone_number": "+70000000032",
                     "num_people": 5,
-                    "seating_time": "2025-04-04T18:30:00+10:00",
-                    "end_time": "2025-04-04T19:30:00+10:00",
-                    "status": "Заявка"
+                    "seating_time": "2025-04-04T19:00:00+10:00",
+                    "end_time": "2025-04-04T20:00:00+10:00",
+                    "status": "Открыт"
                 }
             ]
         },
         {
             "id": "table-6",
             "number": "6",
-            "capacity": 5,
+            "capacity": 8,
             "zone": "2 этаж",
             "orders": [
                 {
                     "id": "order-6-1",
-                    "start_time": "2025-04-04T11:00:00+10:00",
-                    "end_time": "2025-04-04T12:00:00+10:00",
-                    "status": "New"
-                },
-                {
-                    "id": "order-6-2",
-                    "start_time": "2025-04-04T12:30:00+10:00",
-                    "end_time": "2025-04-04T13:30:00+10:00",
+                    "start_time": "2025-04-04T12:00:00+10:00",
+                    "end_time": "2025-04-04T13:00:00+10:00",
                     "status": "Closed"
                 },
                 {
+                    "id": "order-6-2",
+                    "start_time": "2025-04-04T15:00:00+10:00",
+                    "end_time": "2025-04-04T16:00:00+10:00",
+                    "status": "New"
+                },
+                {
                     "id": "order-6-3",
-                    "start_time": "2025-04-04T14:00:00+10:00",
-                    "end_time": "2025-04-04T15:00:00+10:00",
+                    "start_time": "2025-04-04T17:00:00+10:00",
+                    "end_time": "2025-04-04T19:00:00+10:00",
                     "status": "New"
                 }
             ],
             "reservations": [
                 {
-                    "id": 6001,
+                    "id": 601,
                     "name_for_reservation": "Ольга",
-                    "phone_number": "+70000000026",
-                    "num_people": 2,
-                    "seating_time": "2025-04-04T15:30:00+10:00",
-                    "end_time": "2025-04-04T16:30:00+10:00",
+                    "phone_number": "+70000000079",
+                    "num_people": 5,
+                    "seating_time": "2025-04-05T15:00:00+10:00",
+                    "end_time": "2025-04-05T16:00:00+10:00",
+                    "status": "Заявка"
+                },
+                {
+                    "id": 602,
+                    "name_for_reservation": "Иван",
+                    "phone_number": "+70000000090",
+                    "num_people": 5,
+                    "seating_time": "2025-04-05T16:00:00+10:00",
+                    "end_time": "2025-04-05T17:00:00+10:00",
                     "status": "Живая очередь"
                 },
                 {
-                    "id": 6002,
-                    "name_for_reservation": "Наталья",
-                    "phone_number": "+70000000027",
-                    "num_people": 5,
-                    "seating_time": "2025-04-04T17:00:00+10:00",
-                    "end_time": "2025-04-04T18:00:00+10:00",
-                    "status": "Открыт"
-                },
-                {
-                    "id": 6003,
-                    "name_for_reservation": "Наталья",
-                    "phone_number": "+70000000028",
+                    "id": 603,
+                    "name_for_reservation": "Иван",
+                    "phone_number": "+70000000079",
                     "num_people": 4,
-                    "seating_time": "2025-04-04T18:30:00+10:00",
-                    "end_time": "2025-04-04T19:30:00+10:00",
+                    "seating_time": "2025-04-05T17:00:00+10:00",
+                    "end_time": "2025-04-05T18:00:00+10:00",
                     "status": "Заявка"
                 }
             ]
@@ -348,55 +348,36 @@ export const data ={
         {
             "id": "table-7",
             "number": "7",
-            "capacity": 6,
-            "zone": "1 этаж",
-            "orders": [
-                {
-                    "id": "order-7-1",
-                    "start_time": "2025-04-04T11:00:00+10:00",
-                    "end_time": "2025-04-04T12:00:00+10:00",
-                    "status": "New"
-                },
-                {
-                    "id": "order-7-2",
-                    "start_time": "2025-04-04T12:30:00+10:00",
-                    "end_time": "2025-04-04T13:30:00+10:00",
-                    "status": "Closed"
-                },
-                {
-                    "id": "order-7-3",
-                    "start_time": "2025-04-04T14:00:00+10:00",
-                    "end_time": "2025-04-04T15:00:00+10:00",
-                    "status": "New"
-                }
-            ],
+            "capacity": 7,
+            "zone": "2 этаж",
+            "orders": [],
             "reservations": [
                 {
-                    "id": 7001,
-                    "name_for_reservation": "Мария",
-                    "phone_number": "+70000000029",
-                    "num_people": 3,
-                    "seating_time": "2025-04-04T15:30:00+10:00",
-                    "end_time": "2025-04-04T16:30:00+10:00",
+                    "id": 701,
+                    "name_for_reservation": "Алексей",
+                    "phone_number": "+70000000038",
+                    "num_people": 5,
+                    "seating_time": "2025-04-04T15:00:00+10:00",
+                    "end_time": "2025-04-04T16:00:00+10:00",
                     "status": "Живая очередь"
                 },
                 {
-                    "id": 7002,
-                    "name_for_reservation": "Анна",
-                    "phone_number": "+70000000030",
-                    "num_people": 6,
-                    "seating_time": "2025-04-04T17:00:00+10:00",
-                    "end_time": "2025-04-04T18:00:00+10:00",
+                    "id": 702,
+                    "name_for_reservation": "Татьяна",
+                    "phone_number": "+70000000073",
+                    "num_people": 3,
+                    "seating_time": "2025-04-05T16:00:00+10:00",
+                    "end_time": "2025-04-05T17:00:00+10:00",
                     "status": "Открыт"
                 },
                 {
-                    "id": 7003,
-                    "name_for_reservation": "Анна",
-                    "phone_number": "+70000000031",
-                    "num_people": 5,
-                    "seating_time": "2025-04-04T18:30:00+10:00",
-                    "end_time": "2025-04-04T19:30:00+10:00",
-                    "status": "Заявка"
+                    "id": 703,
+                    "name_for_reservation": "Иван",
+                    "phone_number": "+70000000095",
+                    "num_people": 3,
+                    "seating_time": "2025-04-04T17:00:00+10:00",
+                    "end_time": "2025-04-04T18:00:00+10:00",
+                    "status": "Живая очередь"
                 }
             ]
         },
@@ -414,278 +395,225 @@ export const data ={
                 },
                 {
                     "id": "order-8-2",
-                    "start_time": "2025-04-04T12:30:00+10:00",
-                    "end_time": "2025-04-04T13:30:00+10:00",
+                    "start_time": "2025-04-04T13:00:00+10:00",
+                    "end_time": "2025-04-04T14:00:00+10:00",
                     "status": "Closed"
                 },
                 {
                     "id": "order-8-3",
-                    "start_time": "2025-04-04T14:00:00+10:00",
-                    "end_time": "2025-04-04T15:00:00+10:00",
-                    "status": "New"
+                    "start_time": "2025-04-04T15:00:00+10:00",
+                    "end_time": "2025-04-04T16:00:00+10:00",
+                    "status": "Closed"
                 }
             ],
             "reservations": [
                 {
-                    "id": 8001,
-                    "name_for_reservation": "Алексей",
-                    "phone_number": "+70000000032",
-                    "num_people": 4,
-                    "seating_time": "2025-04-04T15:30:00+10:00",
-                    "end_time": "2025-04-04T16:30:00+10:00",
-                    "status": "Живая очередь"
-                },
-                {
-                    "id": 8002,
-                    "name_for_reservation": "Анна",
-                    "phone_number": "+70000000033",
-                    "num_people": 3,
-                    "seating_time": "2025-04-04T17:00:00+10:00",
-                    "end_time": "2025-04-04T18:00:00+10:00",
+                    "id": 801,
+                    "name_for_reservation": "Елена",
+                    "phone_number": "+70000000053",
+                    "num_people": 5,
+                    "seating_time": "2025-04-04T15:00:00+10:00",
+                    "end_time": "2025-04-04T17:00:00+10:00",
                     "status": "Открыт"
                 },
                 {
-                    "id": 8003,
-                    "name_for_reservation": "Алексей",
-                    "phone_number": "+70000000034",
-                    "num_people": 4,
-                    "seating_time": "2025-04-04T18:30:00+10:00",
-                    "end_time": "2025-04-04T19:30:00+10:00",
+                    "id": 802,
+                    "name_for_reservation": "Татьяна",
+                    "phone_number": "+70000000086",
+                    "num_people": 5,
+                    "seating_time": "2025-04-04T15:00:00+10:00",
+                    "end_time": "2025-04-04T17:00:00+10:00",
                     "status": "Заявка"
+                },
+                {
+                    "id": 803,
+                    "name_for_reservation": "Дмитрий",
+                    "phone_number": "+70000000046",
+                    "num_people": 3,
+                    "seating_time": "2025-04-04T19:00:00+10:00",
+                    "end_time": "2025-04-04T20:00:00+10:00",
+                    "status": "Живая очередь"
                 }
             ]
         },
         {
             "id": "table-9",
             "number": "9",
-            "capacity": 8,
-            "zone": "Банкетный зал",
-            "orders": [
-                {
-                    "id": "order-9-1",
-                    "start_time": "2025-04-04T11:00:00+10:00",
-                    "end_time": "2025-04-04T13:00:00+10:00",
-                    "status": "Banquet"
-                },
-                {
-                    "id": "order-9-3",
-                    "start_time": "2025-04-04T14:00:00+10:00",
-                    "end_time": "2025-04-04T16:00:00+10:00",
-                    "status": "Banquet"
-                }
-            ],
-            "reservations": []
-        },
-        {
-            "id": "table-10",
-            "number": "10",
             "capacity": 4,
-            "zone": "Банкетный зал",
-            "orders": [
-                {
-                    "id": "order-10-1",
-                    "start_time": "2025-04-04T11:00:00+10:00",
-                    "end_time": "2025-04-04T12:50:00+10:00",
-                    "status": "Banquet"
-                },
-                {
-                    "id": "order-10-2",
-                    "start_time": "2025-04-04T13:30:00+10:00",
-                    "end_time": "2025-04-04T15:30:00+10:00",
-                    "status": "Banquet"
-                },
-                {
-                    "id": "order-10-3",
-                    "start_time": "2025-04-04T16:00:00+10:00",
-                    "end_time": "2025-04-04T18:00:00+10:00",
-                    "status": "Banquet"
-                }
-            ],
-            "reservations": []
-        },
-        {
-            "id": "table-16",
-            "number": "8",
-            "capacity": 7,
             "zone": "2 этаж",
             "orders": [
                 {
-                    "id": "order-8-1",
-                    "start_time": "2025-04-04T11:00:00+10:00",
-                    "end_time": "2025-04-04T12:00:00+10:00",
-                    "status": "New"
-                },
-                {
-                    "id": "order-8-2",
-                    "start_time": "2025-04-04T12:30:00+10:00",
-                    "end_time": "2025-04-04T13:30:00+10:00",
+                    "id": "order-9-1",
+                    "start_time": "2025-04-04T17:00:00+10:00",
+                    "end_time": "2025-04-04T18:00:00+10:00",
                     "status": "Closed"
                 },
                 {
-                    "id": "order-8-3",
-                    "start_time": "2025-04-04T14:00:00+10:00",
-                    "end_time": "2025-04-04T15:00:00+10:00",
+                    "id": "order-9-2",
+                    "start_time": "2025-04-04T12:00:00+10:00",
+                    "end_time": "2025-04-04T13:00:00+10:00",
+                    "status": "Closed"
+                },
+                {
+                    "id": "order-9-3",
+                    "start_time": "2025-04-04T15:00:00+10:00",
+                    "end_time": "2025-04-04T16:00:00+10:00",
                     "status": "New"
                 }
             ],
             "reservations": [
                 {
-                    "id": 8001,
-                    "name_for_reservation": "Алексей",
-                    "phone_number": "+70000000032",
-                    "num_people": 4,
-                    "seating_time": "2025-04-04T15:30:00+10:00",
-                    "end_time": "2025-04-04T16:30:00+10:00",
+                    "id": 901,
+                    "name_for_reservation": "Наталья",
+                    "phone_number": "+70000000085",
+                    "num_people": 5,
+                    "seating_time": "2025-04-04T15:00:00+10:00",
+                    "end_time": "2025-04-04T16:00:00+10:00",
                     "status": "Живая очередь"
                 },
                 {
-                    "id": 8002,
-                    "name_for_reservation": "Анна",
-                    "phone_number": "+70000000033",
+                    "id": 902,
+                    "name_for_reservation": "Алексей",
+                    "phone_number": "+70000000042",
                     "num_people": 3,
-                    "seating_time": "2025-04-04T17:00:00+10:00",
-                    "end_time": "2025-04-04T18:00:00+10:00",
+                    "seating_time": "2025-04-04T18:00:00+10:00",
+                    "end_time": "2025-04-04T19:00:00+10:00",
                     "status": "Открыт"
                 },
                 {
-                    "id": 8003,
-                    "name_for_reservation": "Алексей",
-                    "phone_number": "+70000000034",
-                    "num_people": 4,
-                    "seating_time": "2025-04-04T18:30:00+10:00",
-                    "end_time": "2025-04-04T19:30:00+10:00",
-                    "status": "Заявка"
+                    "id": 903,
+                    "name_for_reservation": "Елена",
+                    "phone_number": "+70000000083",
+                    "num_people": 2,
+                    "seating_time": "2025-04-04T19:00:00+10:00",
+                    "end_time": "2025-04-04T20:00:00+10:00",
+                    "status": "Открыт"
                 }
             ]
         },
         {
-            "id": "table-15",
-            "number": "9",
-            "capacity": 8,
-            "zone": "Банкетный зал",
-            "orders": [
-                {
-                    "id": "order-9-1",
-                    "start_time": "2025-04-04T11:00:00+10:00",
-                    "end_time": "2025-04-04T13:00:00+10:00",
-                    "status": "Banquet"
-                },
-                {
-                    "id": "order-9-3",
-                    "start_time": "2025-04-04T14:00:00+10:00",
-                    "end_time": "2025-04-04T16:00:00+10:00",
-                    "status": "Banquet"
-                }
-            ],
-            "reservations": []
-        },
-        {
-            "id": "table-14",
+            "id": "table-10",
             "number": "10",
-            "capacity": 4,
-            "zone": "Банкетный зал",
+            "capacity": 7,
+            "zone": "2 этаж",
             "orders": [
                 {
                     "id": "order-10-1",
-                    "start_time": "2025-04-04T11:00:00+10:00",
-                    "end_time": "2025-04-04T12:50:00+10:00",
-                    "status": "Banquet"
+                    "start_time": "2025-04-05T11:00:00+10:00",
+                    "end_time": "2025-04-05T12:00:00+10:00",
+                    "status": "Closed"
                 },
                 {
                     "id": "order-10-2",
-                    "start_time": "2025-04-04T13:30:00+10:00",
-                    "end_time": "2025-04-04T15:30:00+10:00",
-                    "status": "Banquet"
+                    "start_time": "2025-04-05T13:00:00+10:00",
+                    "end_time": "2025-04-05T15:00:00+10:00",
+                    "status": "New"
                 },
                 {
                     "id": "order-10-3",
-                    "start_time": "2025-04-04T16:00:00+10:00",
-                    "end_time": "2025-04-04T18:00:00+10:00",
-                    "status": "Banquet"
+                    "start_time": "2025-04-05T18:00:00+10:00",
+                    "end_time": "2025-04-05T17:00:00+10:00",
+                    "status": "Closed"
                 }
             ],
             "reservations": []
         },
         {
             "id": "table-11",
-            "number": "8",
-            "capacity": 7,
+            "number": "11",
+            "capacity": 6,
             "zone": "2 этаж",
             "orders": [
                 {
-                    "id": "order-8-1",
-                    "start_time": "2025-04-04T11:00:00+10:00",
-                    "end_time": "2025-04-04T12:00:00+10:00",
+                    "id": "order-11-1",
+                    "start_time": "2025-04-05T11:00:00+10:00",
+                    "end_time": "2025-04-05T12:00:00+10:00",
                     "status": "New"
                 },
                 {
-                    "id": "order-8-2",
-                    "start_time": "2025-04-04T12:30:00+10:00",
-                    "end_time": "2025-04-04T13:30:00+10:00",
+                    "id": "order-11-2",
+                    "start_time": "2025-04-05T15:00:00+10:00",
+                    "end_time": "2025-04-05T17:00:00+10:00",
                     "status": "Closed"
                 },
                 {
-                    "id": "order-8-3",
-                    "start_time": "2025-04-04T14:00:00+10:00",
-                    "end_time": "2025-04-04T15:00:00+10:00",
-                    "status": "New"
+                    "id": "order-11-3",
+                    "start_time": "2025-04-05T19:00:00+10:00",
+                    "end_time": "2025-04-05T20:00:00+10:00",
+                    "status": "Closed"
                 }
             ],
             "reservations": [
                 {
-                    "id": 8001,
-                    "name_for_reservation": "Алексей",
-                    "phone_number": "+70000000032",
+                    "id": 1101,
+                    "name_for_reservation": "Сергей",
+                    "phone_number": "+70000000050",
                     "num_people": 4,
-                    "seating_time": "2025-04-04T15:30:00+10:00",
-                    "end_time": "2025-04-04T16:30:00+10:00",
-                    "status": "Живая очередь"
-                },
-                {
-                    "id": 8002,
-                    "name_for_reservation": "Анна",
-                    "phone_number": "+70000000033",
-                    "num_people": 3,
                     "seating_time": "2025-04-04T17:00:00+10:00",
                     "end_time": "2025-04-04T18:00:00+10:00",
-                    "status": "Открыт"
-                },
-                {
-                    "id": 8003,
-                    "name_for_reservation": "Алексей",
-                    "phone_number": "+70000000034",
-                    "num_people": 4,
-                    "seating_time": "2025-04-04T18:30:00+10:00",
-                    "end_time": "2025-04-04T19:30:00+10:00",
-                    "status": "Заявка"
+                    "status": "Новая"
                 }
             ]
         },
         {
             "id": "table-12",
             "number": "12",
-            "capacity": 8,
-            "zone": "Банкетный зал",
+            "capacity": 3,
+            "zone": "2 этаж",
             "orders": [
                 {
-                    "id": "order-9-1",
-                    "start_time": "2025-04-04T11:00:00+10:00",
-                    "end_time": "2025-04-04T13:00:00+10:00",
-                    "status": "Banquet"
+                    "id": "order-12-1",
+                    "start_time": "2025-04-05T11:00:00+10:00",
+                    "end_time": "2025-04-05T12:00:00+10:00",
+                    "status": "Closed"
                 },
                 {
-                    "id": "order-9-3",
-                    "start_time": "2025-04-04T14:00:00+10:00",
-                    "end_time": "2025-04-04T16:00:00+10:00",
-                    "status": "Banquet"
+                    "id": "order-12-2",
+                    "start_time": "2025-04-04T12:00:00+10:00",
+                    "end_time": "2025-04-04T13:00:00+10:00",
+                    "status": "New"
+                },
+                {
+                    "id": "order-12-3",
+                    "start_time": "2025-04-05T13:00:00+10:00",
+                    "end_time": "2025-04-05T14:00:00+10:00",
+                    "status": "New"
                 }
             ],
-            "reservations": []
+            "reservations": [
+                {
+                    "id": 1201,
+                    "name_for_reservation": "Елена",
+                    "phone_number": "+70000000083",
+                    "num_people": 5,
+                    "seating_time": "2025-04-04T15:00:00+10:00",
+                    "end_time": "2025-04-04T16:00:00+10:00",
+                    "status": "Открыт"
+                },
+                {
+                    "id": 1202,
+                    "name_for_reservation": "Мария",
+                    "phone_number": "+70000000076",
+                    "num_people": 4,
+                    "seating_time": "2025-04-04T18:00:00+10:00",
+                    "end_time": "2025-04-04T19:00:00+10:00",
+                    "status": "Живая очередь"
+                },
+                {
+                    "id": 1203,
+                    "name_for_reservation": "Сергей",
+                    "phone_number": "+70000000090",
+                    "num_people": 2,
+                    "seating_time": "2025-04-04T18:00:00+10:00",
+                    "end_time": "2025-04-04T19:30:00+10:00",
+                    "status": "Живая очередь"
+                }
+            ]
         },
         {
             "id": "table-13",
             "number": "13",
-            "capacity": 4,
+            "capacity": 5,
             "zone": "Банкетный зал",
             "orders": [
                 {
@@ -696,8 +624,8 @@ export const data ={
                 },
                 {
                     "id": "order-10-2",
-                    "start_time": "2025-04-04T13:30:00+10:00",
-                    "end_time": "2025-04-04T15:30:00+10:00",
+                    "start_time": "2025-04-04T13:40:00+10:00",
+                    "end_time": "2025-04-04T15:50:00+10:00",
                     "status": "Banquet"
                 },
                 {
@@ -707,127 +635,59 @@ export const data ={
                     "status": "Banquet"
                 }
             ],
-            "reservations": []
+            "reservations":[]
         },
         {
-            "id": "table-10",
-            "number": "10",
-            "capacity": 4,
+            "id": "table-14",
+            "number": "14",
+            "capacity": 3,
             "zone": "Банкетный зал",
             "orders": [
                 {
-                    "id": "order-10-1",
-                    "start_time": "2025-04-04T11:00:00+10:00",
-                    "end_time": "2025-04-04T12:50:00+10:00",
+                    "id": "order-14-1",
+                    "start_time": "2025-04-04T15:00:00+10:00",
+                    "end_time": "2025-04-04T16:50:00+10:00",
                     "status": "Banquet"
                 },
                 {
-                    "id": "order-10-2",
-                    "start_time": "2025-04-04T13:30:00+10:00",
-                    "end_time": "2025-04-04T15:30:00+10:00",
+                    "id": "order-14-2",
+                    "start_time": "2025-04-05T15:30:00+10:00",
+                    "end_time": "2025-04-05T18:30:00+10:00",
                     "status": "Banquet"
                 },
                 {
-                    "id": "order-10-3",
-                    "start_time": "2025-04-04T16:00:00+10:00",
-                    "end_time": "2025-04-04T18:00:00+10:00",
+                    "id": "order-14-3",
+                    "start_time": "2025-04-04T19:00:00+10:00",
+                    "end_time": "2025-04-04T20:00:00+10:00",
                     "status": "Banquet"
                 }
             ],
+            "reservations": [],
+        },
+        {
+            "id": "table-15",
+            "number": "15",
+            "capacity": 4,
+            "zone": "Банкетный зал",
+            "orders": [],
             "reservations": []
         },
         {
             "id": "table-16",
-            "number": "8",
-            "capacity": 7,
-            "zone": "2 этаж",
-            "orders": [
-                {
-                    "id": "order-8-1",
-                    "start_time": "2025-04-04T11:00:00+10:00",
-                    "end_time": "2025-04-04T12:00:00+10:00",
-                    "status": "New"
-                },
-                {
-                    "id": "order-8-2",
-                    "start_time": "2025-04-04T12:30:00+10:00",
-                    "end_time": "2025-04-04T13:30:00+10:00",
-                    "status": "Closed"
-                },
-                {
-                    "id": "order-8-3",
-                    "start_time": "2025-04-04T14:00:00+10:00",
-                    "end_time": "2025-04-04T15:00:00+10:00",
-                    "status": "New"
-                }
-            ],
-            "reservations": [
-                {
-                    "id": 8001,
-                    "name_for_reservation": "Алексей",
-                    "phone_number": "+70000000032",
-                    "num_people": 4,
-                    "seating_time": "2025-04-04T15:30:00+10:00",
-                    "end_time": "2025-04-04T16:30:00+10:00",
-                    "status": "Живая очередь"
-                },
-                {
-                    "id": 8002,
-                    "name_for_reservation": "Анна",
-                    "phone_number": "+70000000033",
-                    "num_people": 3,
-                    "seating_time": "2025-04-04T17:00:00+10:00",
-                    "end_time": "2025-04-04T18:00:00+10:00",
-                    "status": "Открыт"
-                },
-                {
-                    "id": 8003,
-                    "name_for_reservation": "Алексей",
-                    "phone_number": "+70000000034",
-                    "num_people": 4,
-                    "seating_time": "2025-04-04T18:30:00+10:00",
-                    "end_time": "2025-04-04T19:30:00+10:00",
-                    "status": "Заявка"
-                }
-            ]
-        },
-        {
-            "id": "table-15",
-            "number": "9",
-            "capacity": 8,
-            "zone": "Банкетный зал",
-            "orders": [
-                {
-                    "id": "order-9-1",
-                    "start_time": "2025-04-04T11:00:00+10:00",
-                    "end_time": "2025-04-04T13:00:00+10:00",
-                    "status": "Banquet"
-                },
-                {
-                    "id": "order-9-3",
-                    "start_time": "2025-04-04T14:00:00+10:00",
-                    "end_time": "2025-04-04T16:00:00+10:00",
-                    "status": "Banquet"
-                }
-            ],
-            "reservations": []
-        },
-        {
-            "id": "table-14",
-            "number": "10",
-            "capacity": 4,
+            "number": "16",
+            "capacity": 6,
             "zone": "Банкетный зал",
             "orders": [
                 {
                     "id": "order-10-1",
-                    "start_time": "2025-04-04T11:00:00+10:00",
-                    "end_time": "2025-04-04T12:50:00+10:00",
+                    "start_time": "2025-04-04T11:30:00+10:00",
+                    "end_time": "2025-04-04T13:50:00+10:00",
                     "status": "Banquet"
                 },
                 {
                     "id": "order-10-2",
-                    "start_time": "2025-04-04T13:30:00+10:00",
-                    "end_time": "2025-04-04T15:30:00+10:00",
+                    "start_time": "2025-04-05T13:30:00+10:00",
+                    "end_time": "2025-04-05T15:30:00+10:00",
                     "status": "Banquet"
                 },
                 {
@@ -840,84 +700,35 @@ export const data ={
             "reservations": []
         },
         {
-            "id": "table-11",
-            "number": "8",
-            "capacity": 7,
-            "zone": "2 этаж",
-            "orders": [
-                {
-                    "id": "order-8-1",
-                    "start_time": "2025-04-04T11:00:00+10:00",
-                    "end_time": "2025-04-04T12:00:00+10:00",
-                    "status": "New"
-                },
-                {
-                    "id": "order-8-2",
-                    "start_time": "2025-04-04T12:30:00+10:00",
-                    "end_time": "2025-04-04T13:30:00+10:00",
-                    "status": "Closed"
-                },
-                {
-                    "id": "order-8-3",
-                    "start_time": "2025-04-04T14:00:00+10:00",
-                    "end_time": "2025-04-04T15:00:00+10:00",
-                    "status": "New"
-                }
-            ],
-            "reservations": [
-                {
-                    "id": 8001,
-                    "name_for_reservation": "Алексей",
-                    "phone_number": "+70000000032",
-                    "num_people": 4,
-                    "seating_time": "2025-04-04T15:30:00+10:00",
-                    "end_time": "2025-04-04T16:30:00+10:00",
-                    "status": "Живая очередь"
-                },
-                {
-                    "id": 8002,
-                    "name_for_reservation": "Анна",
-                    "phone_number": "+70000000033",
-                    "num_people": 3,
-                    "seating_time": "2025-04-04T17:00:00+10:00",
-                    "end_time": "2025-04-04T18:00:00+10:00",
-                    "status": "Открыт"
-                },
-                {
-                    "id": 8003,
-                    "name_for_reservation": "Алексей",
-                    "phone_number": "+70000000034",
-                    "num_people": 4,
-                    "seating_time": "2025-04-04T18:30:00+10:00",
-                    "end_time": "2025-04-04T19:30:00+10:00",
-                    "status": "Заявка"
-                }
-            ]
-        },
-        {
-            "id": "table-12",
-            "number": "12",
-            "capacity": 8,
+            "id": "table-17",
+            "number": "17",
+            "capacity": 3,
             "zone": "Банкетный зал",
             "orders": [
                 {
-                    "id": "order-9-1",
-                    "start_time": "2025-04-04T11:00:00+10:00",
-                    "end_time": "2025-04-04T13:00:00+10:00",
+                    "id": "order-10-1",
+                    "start_time": "2025-04-05T11:00:00+10:00",
+                    "end_time": "2025-04-04T12:50:00+10:00",
                     "status": "Banquet"
                 },
                 {
-                    "id": "order-9-3",
-                    "start_time": "2025-04-04T14:00:00+10:00",
-                    "end_time": "2025-04-04T16:00:00+10:00",
+                    "id": "order-10-2",
+                    "start_time": "2025-04-04T14:30:00+10:00",
+                    "end_time": "2025-04-04T16:30:00+10:00",
+                    "status": "Banquet"
+                },
+                {
+                    "id": "order-10-3",
+                    "start_time": "2025-04-04T19:00:00+10:00",
+                    "end_time": "2025-04-04T21:00:00+10:00",
                     "status": "Banquet"
                 }
             ],
             "reservations": []
         },
         {
-            "id": "table-13",
-            "number": "13",
+            "id": "table-18",
+            "number": "18",
             "capacity": 4,
             "zone": "Банкетный зал",
             "orders": [
@@ -929,14 +740,68 @@ export const data ={
                 },
                 {
                     "id": "order-10-2",
-                    "start_time": "2025-04-04T13:30:00+10:00",
+                    "start_time": "2025-04-04T11:30:00+10:00",
                     "end_time": "2025-04-04T15:30:00+10:00",
                     "status": "Banquet"
                 },
                 {
                     "id": "order-10-3",
-                    "start_time": "2025-04-04T16:00:00+10:00",
-                    "end_time": "2025-04-04T18:00:00+10:00",
+                    "start_time": "2025-04-05T16:00:00+10:00",
+                    "end_time": "2025-04-05T18:00:00+10:00",
+                    "status": "Banquet"
+                }
+            ],
+            "reservations": []
+        },
+        {
+            "id": "table-19",
+            "number": "19",
+            "capacity": 2,
+            "zone": "Банкетный зал",
+            "orders": [
+                {
+                    "id": "order-10-1",
+                    "start_time": "2025-04-04T11:00:00+10:00",
+                    "end_time": "2025-04-04T12:50:00+10:00",
+                    "status": "Banquet"
+                },
+                {
+                    "id": "order-10-2",
+                    "start_time": "2025-04-04T15:30:00+10:00",
+                    "end_time": "2025-04-04T16:30:00+10:00",
+                    "status": "Banquet"
+                },
+                {
+                    "id": "order-10-3",
+                    "start_time": "2025-04-04T19:00:00+10:00",
+                    "end_time": "2025-04-04T20:00:00+10:00",
+                    "status": "Banquet"
+                }
+            ],
+            "reservations": []
+        },
+        {
+            "id": "table-20",
+            "number": "20",
+            "capacity": 3,
+            "zone": "Банкетный зал",
+            "orders": [
+                {
+                    "id": "order-10-1",
+                    "start_time": "2025-04-04T11:00:00+10:00",
+                    "end_time": "2025-04-04T12:50:00+10:00",
+                    "status": "Banquet"
+                },
+                {
+                    "id": "order-10-2",
+                    "start_time": "2025-04-04T16:30:00+10:00",
+                    "end_time": "2025-04-04T18:30:00+10:00",
+                    "status": "Banquet"
+                },
+                {
+                    "id": "order-10-3",
+                    "start_time": "2025-04-05T16:00:00+10:00",
+                    "end_time": "2025-04-05T18:00:00+10:00",
                     "status": "Banquet"
                 }
             ],

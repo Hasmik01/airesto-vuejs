@@ -1,6 +1,9 @@
-# booking
+# Booking
 
-This template should help get you started developing with Vue 3 in Vite.
+Развернутое приложение
+<a href="https://hasmik01.github.io/airesto-vuejs/" target="blank">https://hasmik01.github.io/airesto-vuejs/</a>
+
+Для корректной работы с реальными данными необходимо в файле <span style="font-weight:600">.env</span> изменить значение переменной <span style="font-weight:600">VITE_API_BASE_URL</span>, указав актуальный адрес вашего API. В противном случае будет отображаться тестовая информация.
 
 ## Recommended IDE Setup
 
@@ -28,9 +31,4 @@ npm run dev
 npm run build
 ```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
 
-```sh
-npm run test:unit
-```
-# airesto-vuejs

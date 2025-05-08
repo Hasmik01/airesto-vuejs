@@ -74,11 +74,9 @@
           </template>
         </div>
       </div>
-      <div class="absolute bg-amber-600 w-full h-[4px]" :style="`top:${getTop(new Date(),bookingData.restaurant.opening_time,height)}px`">
-
+      <div class="absolute bg-amber-600 w-full h-[1px]" :style="`top:${getTop(new Date(),bookingData.restaurant.opening_time,height)}px`">
       </div>
     </div>
-
   </div>
   <div class="bg-[#222222] position fixed bottom-[24px] right-[24px] p-[8px] rounded-[8px] z-[9999999]">
     <h3 class="font-semibold text-white text-[13px] text-center pb-[4px]">Масштаб</h3>
