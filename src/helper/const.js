@@ -44,7 +44,7 @@ export const data ={
                 {
                     "id": 101,
                     "name_for_reservation": "Елена",
-                    "phone_number": "+70000000079",
+                    "phone_number": "+70000079",
                     "num_people": 3,
                     "seating_time": "2025-04-04T15:00:00+10:00",
                     "end_time": "2025-04-04T16:00:00+10:00",
@@ -53,7 +53,7 @@ export const data ={
                 {
                     "id": 102,
                     "name_for_reservation": "Дмитрий",
-                    "phone_number": "+70000000076",
+                    "phone_number": "+70000076",
                     "num_people": 5,
                     "seating_time": "2025-04-04T17:00:00+10:00",
                     "end_time": "2025-04-04T18:00:00+10:00",
@@ -62,7 +62,7 @@ export const data ={
                 {
                     "id": 103,
                     "name_for_reservation": "Елена",
-                    "phone_number": "+70000000030",
+                    "phone_number": "+70000030",
                     "num_people": 4,
                     "seating_time": "2025-04-04T17:40:00+10:00",
                     "end_time": "2025-04-04T20:00:00+10:00",
@@ -99,7 +99,7 @@ export const data ={
                 {
                     "id": 201,
                     "name_for_reservation": "Анна",
-                    "phone_number": "+70000000091",
+                    "phone_number": "+70000091",
                     "num_people": 4,
                     "seating_time": "2025-04-04T15:00:00+10:00",
                     "end_time": "2025-04-04T16:00:00+10:00",
@@ -108,7 +108,7 @@ export const data ={
                 {
                     "id": 202,
                     "name_for_reservation": "Ольга",
-                    "phone_number": "+70000000070",
+                    "phone_number": "+70000070",
                     "num_people": 5,
                     "seating_time": "2025-04-04T17:00:00+10:00",
                     "end_time": "2025-04-04T19:00:00+10:00",
@@ -117,7 +117,7 @@ export const data ={
                 {
                     "id": 203,
                     "name_for_reservation": "Елена",
-                    "phone_number": "+70000000093",
+                    "phone_number": "+70000093",
                     "num_people": 4,
                     "seating_time": "2025-04-04T20:00:00+10:00",
                     "end_time": "2025-04-04T21:00:00+10:00",
@@ -154,7 +154,7 @@ export const data ={
                 {
                     "id": 301,
                     "name_for_reservation": "Анна",
-                    "phone_number": "+70000000058",
+                    "phone_number": "+70000058",
                     "num_people": 4,
                     "seating_time": "2025-04-05T15:00:00+10:00",
                     "end_time": "2025-04-05T16:00:00+10:00",
@@ -163,7 +163,7 @@ export const data ={
                 {
                     "id": 302,
                     "name_for_reservation": "Ольга",
-                    "phone_number": "+70000000040",
+                    "phone_number": "+70000040",
                     "num_people": 5,
                     "seating_time": "2025-04-05T16:00:00+10:00",
                     "end_time": "2025-04-05T17:00:00+10:00",
@@ -172,7 +172,7 @@ export const data ={
                 {
                     "id": 303,
                     "name_for_reservation": "Елена",
-                    "phone_number": "+70000000031",
+                    "phone_number": "+70000031",
                     "num_people": 3,
                     "seating_time": "2025-04-06T17:00:00+10:00",
                     "end_time": "2025-04-06T18:00:00+10:00",
@@ -209,7 +209,7 @@ export const data ={
                 {
                     "id": 401,
                     "name_for_reservation": "Сергей",
-                    "phone_number": "+70000000079",
+                    "phone_number": "+70000079",
                     "num_people": 4,
                     "seating_time": "2025-04-04T15:00:00+10:00",
                     "end_time": "2025-04-04T16:00:00+10:00",
@@ -218,7 +218,7 @@ export const data ={
                 {
                     "id": 402,
                     "name_for_reservation": "Наталья",
-                    "phone_number": "+70000000030",
+                    "phone_number": "+70000030",
                     "num_people": 3,
                     "seating_time": "2025-04-04T16:00:00+10:00",
                     "end_time": "2025-04-04T17:00:00+10:00",
@@ -227,7 +227,7 @@ export const data ={
                 {
                     "id": 403,
                     "name_for_reservation": "Сергей",
-                    "phone_number": "+70000000052",
+                    "phone_number": "+70000052",
                     "num_people": 5,
                     "seating_time": "2025-04-04T17:00:00+10:00",
                     "end_time": "2025-04-04T18:00:00+10:00",
@@ -264,7 +264,7 @@ export const data ={
                 {
                     "id": 501,
                     "name_for_reservation": "Татьяна",
-                    "phone_number": "+70000000082",
+                    "phone_number": "+70000082",
                     "num_people": 5,
                     "seating_time": "2025-04-04T15:00:00+10:00",
                     "end_time": "2025-04-04T17:00:00+10:00",
@@ -273,7 +273,7 @@ export const data ={
                 {
                     "id": 502,
                     "name_for_reservation": "Дмитрий",
-                    "phone_number": "+70000000099",
+                    "phone_number": "+70000099",
                     "num_people": 2,
                     "seating_time": "2025-04-04T15:00:00+10:00",
                     "end_time": "2025-04-04T16:00:00+10:00",
@@ -282,7 +282,7 @@ export const data ={
                 {
                     "id": 503,
                     "name_for_reservation": "Ольга",
-                    "phone_number": "+70000000032",
+                    "phone_number": "+70000032",
                     "num_people": 5,
                     "seating_time": "2025-04-04T19:00:00+10:00",
                     "end_time": "2025-04-04T20:00:00+10:00",
@@ -319,7 +319,7 @@ export const data ={
                 {
                     "id": 601,
                     "name_for_reservation": "Ольга",
-                    "phone_number": "+70000000079",
+                    "phone_number": "+70000079",
                     "num_people": 5,
                     "seating_time": "2025-04-05T15:00:00+10:00",
                     "end_time": "2025-04-05T16:00:00+10:00",
@@ -328,7 +328,7 @@ export const data ={
                 {
                     "id": 602,
                     "name_for_reservation": "Иван",
-                    "phone_number": "+70000000090",
+                    "phone_number": "+70000090",
                     "num_people": 5,
                     "seating_time": "2025-04-05T16:00:00+10:00",
                     "end_time": "2025-04-05T17:00:00+10:00",
@@ -337,7 +337,7 @@ export const data ={
                 {
                     "id": 603,
                     "name_for_reservation": "Иван",
-                    "phone_number": "+70000000079",
+                    "phone_number": "+70000079",
                     "num_people": 4,
                     "seating_time": "2025-04-05T17:00:00+10:00",
                     "end_time": "2025-04-05T18:00:00+10:00",
@@ -355,7 +355,7 @@ export const data ={
                 {
                     "id": 701,
                     "name_for_reservation": "Алексей",
-                    "phone_number": "+70000000038",
+                    "phone_number": "+70000038",
                     "num_people": 5,
                     "seating_time": "2025-04-04T15:00:00+10:00",
                     "end_time": "2025-04-04T16:00:00+10:00",
@@ -364,7 +364,7 @@ export const data ={
                 {
                     "id": 702,
                     "name_for_reservation": "Татьяна",
-                    "phone_number": "+70000000073",
+                    "phone_number": "+70000073",
                     "num_people": 3,
                     "seating_time": "2025-04-05T16:00:00+10:00",
                     "end_time": "2025-04-05T17:00:00+10:00",
@@ -373,7 +373,7 @@ export const data ={
                 {
                     "id": 703,
                     "name_for_reservation": "Иван",
-                    "phone_number": "+70000000095",
+                    "phone_number": "+70000095",
                     "num_people": 3,
                     "seating_time": "2025-04-04T17:00:00+10:00",
                     "end_time": "2025-04-04T18:00:00+10:00",
@@ -410,7 +410,7 @@ export const data ={
                 {
                     "id": 801,
                     "name_for_reservation": "Елена",
-                    "phone_number": "+70000000053",
+                    "phone_number": "+70000053",
                     "num_people": 5,
                     "seating_time": "2025-04-04T15:00:00+10:00",
                     "end_time": "2025-04-04T17:00:00+10:00",
@@ -419,7 +419,7 @@ export const data ={
                 {
                     "id": 802,
                     "name_for_reservation": "Татьяна",
-                    "phone_number": "+70000000086",
+                    "phone_number": "+70000086",
                     "num_people": 5,
                     "seating_time": "2025-04-04T15:00:00+10:00",
                     "end_time": "2025-04-04T17:00:00+10:00",
@@ -428,7 +428,7 @@ export const data ={
                 {
                     "id": 803,
                     "name_for_reservation": "Дмитрий",
-                    "phone_number": "+70000000046",
+                    "phone_number": "+70000046",
                     "num_people": 3,
                     "seating_time": "2025-04-04T19:00:00+10:00",
                     "end_time": "2025-04-04T20:00:00+10:00",
@@ -465,7 +465,7 @@ export const data ={
                 {
                     "id": 901,
                     "name_for_reservation": "Наталья",
-                    "phone_number": "+70000000085",
+                    "phone_number": "+70000085",
                     "num_people": 5,
                     "seating_time": "2025-04-04T15:00:00+10:00",
                     "end_time": "2025-04-04T16:00:00+10:00",
@@ -474,7 +474,7 @@ export const data ={
                 {
                     "id": 902,
                     "name_for_reservation": "Алексей",
-                    "phone_number": "+70000000042",
+                    "phone_number": "+70000042",
                     "num_people": 3,
                     "seating_time": "2025-04-04T18:00:00+10:00",
                     "end_time": "2025-04-04T19:00:00+10:00",
@@ -483,7 +483,7 @@ export const data ={
                 {
                     "id": 903,
                     "name_for_reservation": "Елена",
-                    "phone_number": "+70000000083",
+                    "phone_number": "+70000083",
                     "num_people": 2,
                     "seating_time": "2025-04-04T19:00:00+10:00",
                     "end_time": "2025-04-04T20:00:00+10:00",
@@ -547,7 +547,7 @@ export const data ={
                 {
                     "id": 1101,
                     "name_for_reservation": "Сергей",
-                    "phone_number": "+70000000050",
+                    "phone_number": "+70000050",
                     "num_people": 4,
                     "seating_time": "2025-04-04T17:00:00+10:00",
                     "end_time": "2025-04-04T18:00:00+10:00",
@@ -584,7 +584,7 @@ export const data ={
                 {
                     "id": 1201,
                     "name_for_reservation": "Елена",
-                    "phone_number": "+70000000083",
+                    "phone_number": "+70000083",
                     "num_people": 5,
                     "seating_time": "2025-04-04T15:00:00+10:00",
                     "end_time": "2025-04-04T16:00:00+10:00",
@@ -593,7 +593,7 @@ export const data ={
                 {
                     "id": 1202,
                     "name_for_reservation": "Мария",
-                    "phone_number": "+70000000076",
+                    "phone_number": "+70000076",
                     "num_people": 4,
                     "seating_time": "2025-04-04T18:00:00+10:00",
                     "end_time": "2025-04-04T19:00:00+10:00",
@@ -602,7 +602,7 @@ export const data ={
                 {
                     "id": 1203,
                     "name_for_reservation": "Сергей",
-                    "phone_number": "+70000000090",
+                    "phone_number": "+70000090",
                     "num_people": 2,
                     "seating_time": "2025-04-04T17:48:00+10:00",
                     "end_time": "2025-04-04T19:30:00+10:00",

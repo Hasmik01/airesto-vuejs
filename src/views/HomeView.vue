@@ -5,8 +5,8 @@
 </template>
 
 <script setup>
-import Header from "@/components/Header.vue";
-import Filter from "@/components/Filter.vue";
+import Header from "@/components/main/Header.vue";
+import Filter from "@/components/main/Filter.vue";
 import Calendar from "@/components/Calendar.vue";
 import {onMounted} from "vue";
 import {useBookingStore} from "@/stores/booking.js";
