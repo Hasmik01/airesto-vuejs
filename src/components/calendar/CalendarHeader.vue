@@ -3,7 +3,7 @@
     <div class="min-w-[80px]"></div>
     <template v-for="(table, key) in tables" :key="key">
       <div
-          class="text-center pt-3 min-w-[80px] bg-[#1B1B1D] calendar-header-item"
+          class="text-center pt-3 min-w-[80px] bg-[#1B1B1D] calendar-header-item w-full flex justify-center"
           :style="{ minWidth: columnWidth }"
       >
         <div

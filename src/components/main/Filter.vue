@@ -27,7 +27,7 @@
 <script setup>
 import {useBookingStore} from "@/stores/booking.js";
 import {storeToRefs} from "pinia";
-import {getRussianDateLabel, getRussianDayMonth} from "../../helper/function.js";
+import {getRussianDateLabel, getRussianDayMonth} from "@/helper/function.js";
 
 const bookingStore=useBookingStore();
 const {filter,bookingData}=storeToRefs(bookingStore)
@@ -42,8 +42,5 @@ const {filter,bookingData}=storeToRefs(bookingStore)
 async function changeDate(day) {
   filter.value.date = day
   await bookingStore.getBooking()
-  // setTimeout(()=>{
-  //   const w=document.querySelector('.calendar-header-item').offsetWidth
-  // })
 }
 </script>
