@@ -401,8 +401,8 @@ export const data ={
                 },
                 {
                     "id": "order-8-3",
-                    "start_time": "2025-04-04T15:00:00+10:00",
-                    "end_time": "2025-04-04T16:00:00+10:00",
+                    "start_time": "2025-04-05T15:00:00+10:00",
+                    "end_time": "2025-04-05T16:00:00+10:00",
                     "status": "Closed"
                 }
             ],
@@ -604,7 +604,7 @@ export const data ={
                     "name_for_reservation": "Сергей",
                     "phone_number": "+70000000090",
                     "num_people": 2,
-                    "seating_time": "2025-04-04T18:00:00+10:00",
+                    "seating_time": "2025-04-04T17:48:00+10:00",
                     "end_time": "2025-04-04T19:30:00+10:00",
                     "status": "Живая очередь"
                 }

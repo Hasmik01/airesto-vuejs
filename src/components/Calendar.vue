@@ -23,7 +23,7 @@
         </template>
       </div>
     </div>
-    <div class="h-screen overflow-y-visible w-full custom-scroll">
+    <div class="h-screen overflow-y-visible w-full custom-scroll relative">
       <div class="flex w-full">
         <div class="min-w-[80px] w-full max-w-[80px] flex sticky left-0 text-white z-[99999]" :style="`width:${columnWidth}`">
           <div class="flex flex-col w-full">

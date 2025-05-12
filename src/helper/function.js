@@ -23,7 +23,6 @@ import { DateTime } from "luxon";
 
 export const getTop = (timeStr, openingTimeStr, height = 40) => {
     const ZONE = "Asia/Vladivostok";
-
     // Parse the original date string and convert to the desired time zone
     const time = DateTime.fromJSDate(new Date(timeStr)).setZone(ZONE);
 
@@ -33,6 +32,7 @@ export const getTop = (timeStr, openingTimeStr, height = 40) => {
     const opening = time.set({ hour: openHours, minute: openMinutes, second: 0, millisecond: 0 });
 
     const diffMinutes = time.diff(opening, "minutes").minutes;
+    console.log(time,opening,diffMinutes)
 
     return (diffMinutes * height * 2) / 60;
 };
